@@ -1,6 +1,7 @@
 <template>
   <div>
     <navBar />
+    <HomeContent />
   </div>
 </template>s
 

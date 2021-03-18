@@ -20,7 +20,7 @@ export default {
     this.gradient2.addColorStop(1, "rgba(0, 231, 255, 0)");
     this.renderChart(
       {
-        labels: ["Books", "Magazines", "Newspapers"],
+        labels: ["Tip1", "Tip2", "Tip3"],
         datasets: [
           {
             backgroundColor: [this.gradient, this.gradient2, "#00D8FF"],
