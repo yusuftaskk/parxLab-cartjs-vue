@@ -8,7 +8,7 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>ParxLab Chart.js Vue</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
