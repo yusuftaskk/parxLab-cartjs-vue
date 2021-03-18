@@ -1,4 +1,4 @@
-# parxlab-cartjs-vue
+# parxlab-Chartjs-D3.js-vue
 
 ## Project setup
 ```
