@@ -4,8 +4,7 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
+const routes = [{
     path: '/',
     name: 'Home',
     component: Home
@@ -13,18 +12,26 @@ const routes = [
   {
     path: '/network',
     name: 'Network',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Network.vue')
+
+    component: () => import( /* webpackChunkName: "about" */ '../views/Network.vue')
   },
   {
     path: '/detections',
     name: 'Detections',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Detections.vue')
+
+    component: () => import( /* webpackChunkName: "about" */ '../views/Detections.vue')
+  },
+  {
+    path: '/map',
+    name: 'Map',
+
+    component: () => import( /* webpackChunkName: "about" */ '../views/Map.vue')
+  },
+  {
+    path: '/help',
+    name: 'Help',
+
+    component: () => import( /* webpackChunkName: "about" */ '../views/Help.vue')
   }
 ]
 

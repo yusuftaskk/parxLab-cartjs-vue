@@ -1,3 +1,4 @@
+
 <script>
 import { Line } from "vue-chartjs";
 
