@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <PieChart width="250px" height="400px" />
+        <PieChart width="250px" height="400px"  />
       </div>
       <div class="col">
         <RadarChart width="400px" height="400px" />
