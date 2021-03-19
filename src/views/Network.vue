@@ -1,10 +1,10 @@
 <template>
-  <div class="div">
+  <div >
     <networkContent />
   </div>
 </template>
 <script>
-import networkContent from "@/components/networkPage/networkContent";
+import networkContent from "@/components/D3/networkPage/networkContent";
 export default {
   components: {
     networkContent,
